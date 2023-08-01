@@ -1,15 +1,20 @@
 import React from "react";
 import Carousel from "./Components/Carousel";
+import map1 from "./Assets/locationmap1.png";
+import pattern1 from "./Assets/pattern1.jpg";
+
 function Home() {
   return (
     <div class="bg-gray-200">
-      <p>hello</p>
-      <p>hello</p>
-      <p>hello</p>
+      <img
+        class="object-cover w-screen h-96 ring-gray-300"
+        src={pattern1}
+        alt=""
+      ></img>
 
       <div class="mx-auto max-w-2xl text-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Contact sales
+          Leave a Message
         </h2>
         <p class="mt-2 text-lg leading-8 text-gray-600">
           Aute magna irure deserunt veniam aliqua magna enim voluptate.
@@ -23,7 +28,7 @@ function Home() {
               for="first-name"
               class="block text-sm font-semibold leading-6 text-gray-900"
             >
-              First name
+              First name *
             </label>
             <div class="mt-2.5">
               <input
@@ -40,7 +45,7 @@ function Home() {
               for="last-name"
               class="block text-sm font-semibold leading-6 text-gray-900"
             >
-              Last name
+              Last name *
             </label>
             <div class="mt-2.5">
               <input
@@ -74,7 +79,7 @@ function Home() {
               for="email"
               class="block text-sm font-semibold leading-6 text-gray-900"
             >
-              Email
+              Email *
             </label>
             <div class="mt-2.5">
               <input
@@ -180,6 +185,40 @@ function Home() {
           </button>
         </div>
       </form>
+
+      <div className="flex flex-row mt-12 ">
+        <div className="bg-gray-500 flex-1 h-[40rem]">
+          <div class="relative w-full h-[40rem] ">
+            <iframe
+              class="absolute top-0 left-0 w-full h-full"
+              src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed"
+              frameborder="0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+        </div>
+        <div className="bg-[#002e26] flex-1 text-center ">
+          <div className="w-[200px] h-[200px] bg-gray-600 mx-auto mt-16">
+            <p>LOGO</p>
+          </div>
+          <p className="text-white font-[400] text-lg mt-6">Come Visit us At</p>
+          <a
+            href="https://www.google.com/maps/place/Schaumburg,+IL/@42.032327,-88.2470823,12z/data=!3m1!4b1!4m6!3m5!1s0x880faf88436224e5:0x43bd31cd678f7351!8m2!3d42.0333607!4d-88.0834059!16zL20vMHM1bWQ?entry=ttu"
+            className="text-white font-[400] text-lg mt-6"
+            target="_blank"
+          >
+            123 Street Lane. Schaumburg IL
+          </a>
+          <p className="text-white font-[400] text-lg mt-6">Come Visit us At</p>
+          <p className="text-white font-[400] text-lg mt-6">Come Visit us At</p>
+
+          <p className="text-white font-[300] text-base mt-6">
+            Legal Line Here
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
