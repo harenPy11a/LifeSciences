@@ -11,7 +11,7 @@ function Nav() {
             alt="Flowbite Logo"
           ></img>
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Life Sciences
+            LifeSciences
           </span>
         </a>
         <div class="flex md:order-2">
