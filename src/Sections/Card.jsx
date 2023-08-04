@@ -2,7 +2,7 @@ import React from "react";
 
 function Card() {
   return (
-    <div class="max-w-[85rem] py-10 sm:py-14 px-4 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="max-w-[85rem] mt-24 py-10 sm:py-14 px-4 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
         <h2 class="text-2xl font-bold md:text-4xl md:leading-tight text-black">
           What We Do
