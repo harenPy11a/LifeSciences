@@ -23,7 +23,7 @@ function Carousel() {
 
   return (
     <div>
-      <div className=" h-[35vh] w-full m-auto pt-16 px-4 relative group ">
+      <div className=" h-[35vh] w-full m-auto pt-24 px-4 relative group ">
         {/* max-w-[1400px] */}
         <div className="w-full h-full  rounded-2xl overflow-hidden">
           <img
