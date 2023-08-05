@@ -2,9 +2,9 @@ import heroImg1 from "./Assets/heroImg1.jpg";
 
 function Hero() {
   return (
-    <div className="h-[700px] bg-blue-200">
+    <div className="h-[100vh] bg-blue-200 ">
       <div className="">
-        <img class="z-0 w-full mt-12" src={heroImg1} alt="Image Description" />
+        <img class="z-0 w-full" src={heroImg1} alt="Image Description" />
         <div class="z-10 absolute top-[26%] right-[7%]">
           <h2 class="text-8xl font-extrabold text-gray-800">LifeSciences</h2>
           <p class="max-w-[650px] my-4 text-xl font-italic text-white">

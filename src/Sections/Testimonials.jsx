@@ -39,7 +39,7 @@ function Testimonials() {
                   />
                 </svg>
 
-                <p class="text-xl font-medium text-blue-400 lg:text-2xl lg:leading-normal ">
+                <p class="text-xl font-medium text-black lg:text-2xl lg:leading-normal ">
                   To say that switching to Preline has been life-changing is an
                   understatement. My business has tripled and I got my life
                   back.
@@ -79,7 +79,7 @@ function Testimonials() {
               <div class="flex h-auto">
                 <div class="flex flex-col bg-slate-300 rounded-2xl">
                   <div class="flex-auto p-4 md:p-6">
-                    <p class="text-base italic md:text-lg text-blue-400">
+                    <p class="text-base italic md:text-lg text-black">
                       " Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -112,7 +112,7 @@ function Testimonials() {
               <div class="flex h-auto">
                 <div class="flex flex-col bg-slate-300 rounded-2xl">
                   <div class="flex-auto p-4 md:p-6">
-                    <p class="text-base italic md:text-lg text-blue-400">
+                    <p class="text-base italic md:text-lg text-black">
                       " Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -145,7 +145,7 @@ function Testimonials() {
               <div class="flex h-auto">
                 <div class="flex flex-col bg-slate-300 rounded-2xl">
                   <div class="flex-auto p-4 md:p-6">
-                    <p class="text-base italic md:text-lg text-blue-400">
+                    <p class="text-base italic md:text-lg text-black">
                       " Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
