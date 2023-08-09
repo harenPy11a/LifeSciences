@@ -19,7 +19,7 @@ function News() {
             <div class="grid gap-6 lg:grid-cols-3 xl:gap-x-12">
               <div class="mb-6 lg:mb-0">
                 <div
-                  class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                  class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg "
                   data-te-ripple-init
                   data-te-ripple-color="light"
                 >
@@ -34,7 +34,7 @@ function News() {
                 </div>
 
                 <h5 class="mb-3 text-lg font-bold">Welcome to California</h5>
-                <div class="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500">
+                <div class="mb-3 flex items-center justify-center text-sm font-medium text-danger text-blue-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -51,13 +51,13 @@ function News() {
                   </svg>
                   Travels
                 </div>
-                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                <p class="mb-6 text-neutral-800 ">
                   <small>
                     Published <u>13.01.2022</u> by
-                    <a href="#!">Anna Maria Doe</a>
+                    <a href="#!"> Anna Maria Doe</a>
                   </small>
                 </p>
-                <p class="text-neutral-500 dark:text-neutral-300">
+                <p class="text-neutral-800 ">
                   Ut pretium ultricies dignissim. Sed sit amet mi eget urna
                   placerat vulputate. Ut vulputate est non quam dignissim
                   elementum. Donec a ullamcorper diam.
@@ -66,7 +66,7 @@ function News() {
 
               <div class="mb-6 lg:mb-0">
                 <div
-                  class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                  class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg "
                   data-te-ripple-init
                   data-te-ripple-color="light"
                 >
@@ -81,7 +81,7 @@ function News() {
                 </div>
 
                 <h5 class="mb-3 text-lg font-bold">Exhibition in Paris</h5>
-                <div class="mb-3 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400">
+                <div class="mb-3 flex items-center justify-center text-sm font-medium text-primary text-blue-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -98,13 +98,13 @@ function News() {
                   </svg>
                   Art
                 </div>
-                <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                <p class="mb-6 text-neutral-800">
                   <small>
                     Published <u>12.01.2022</u> by
-                    <a href="#!">Halley Frank</a>
+                    <a href="#!"> Halley Frank</a>
                   </small>
                 </p>
-                <p class="text-neutral-500 dark:text-neutral-300">
+                <p class="text-neutral-800 ">
                   Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet
                   diam orci, nec ornare metus semper sed. Integer volutpat
                   ornare erat sit amet rutrum.
@@ -114,7 +114,7 @@ function News() {
               <div class="mb-0">
                 <div>
                   <div
-                    class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                    class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg"
                     data-te-ripple-init
                     data-te-ripple-color="light"
                   >
@@ -129,7 +129,7 @@ function News() {
                   </div>
 
                   <h5 class="mb-3 text-lg font-bold">Stock market boom</h5>
-                  <div class="mb-3 flex items-center justify-center text-sm font-medium text-yellow-600">
+                  <div class="mb-3 flex items-center justify-center text-sm font-medium text-blue-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -146,13 +146,13 @@ function News() {
                     </svg>
                     Business
                   </div>
-                  <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                  <p class="mb-6 text-neutral-800 ">
                     <small>
                       Published <u>10.01.2022</u> by
-                      <a href="#!">Joe Svan</a>
+                      <a href="#!"> Joe Svan</a>
                     </small>
                   </p>
-                  <p class="text-neutral-500 dark:text-neutral-300">
+                  <p class="text-neutral-800 ">
                     Curabitur tristique, mi a mollis sagittis, metus felis
                     mattis arcu, non vehicula nisl dui quis diam. Mauris ut
                     risus eget massa volutpat feugiat. Donec.
@@ -166,7 +166,7 @@ function News() {
         <div class="mb-6 flex flex-wrap">
           <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
             <div
-              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg "
               data-te-ripple-init
               data-te-ripple-color="light"
             >
@@ -183,7 +183,7 @@ function News() {
 
           <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
             <h5 class="mb-3 text-lg font-bold">Welcome to California</h5>
-            <div class="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 md:justify-start">
+            <div class="mb-3 flex items-center justify-center text-sm font-medium text-danger md:justify-start text-blue-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -200,13 +200,13 @@ function News() {
               </svg>
               Travels
             </div>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p class="mb-6 text-neutral-800">
               <small>
                 Published <u>13.01.2022</u> by
-                <a href="#!">Anna Maria Doe</a>
+                <a href="#!"> Anna Maria Doe</a>
               </small>
             </p>
-            <p class="text-neutral-500 dark:text-neutral-300">
+            <p class="text-neutral-800">
               Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat
               vulputate. Ut vulputate est non quam dignissim elementum. Donec a
               ullamcorper diam.
@@ -217,7 +217,7 @@ function News() {
         <div class="mb-6 flex flex-wrap">
           <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
             <div
-              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg "
               data-te-ripple-init
               data-te-ripple-color="light"
             >
@@ -234,7 +234,7 @@ function News() {
 
           <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
             <h5 class="mb-3 text-lg font-bold">Exhibition in Paris</h5>
-            <div class="mb-3 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400 md:justify-start">
+            <div class="mb-3 flex items-center justify-center text-sm font-medium text-primary md:justify-start text-blue-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -251,13 +251,13 @@ function News() {
               </svg>
               Art
             </div>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p class="mb-6 text-neutral-800 ">
               <small>
                 Published <u>12.01.2022</u> by
-                <a href="#!">Halley Frank</a>
+                <a href="#!"> Halley Frank</a>
               </small>
             </p>
-            <p class="text-neutral-500 dark:text-neutral-300">
+            <p class="text-neutral-800 ">
               Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet diam
               orci, nec ornare metus semper sed. Integer volutpat ornare erat
               sit amet rutrum.
@@ -268,7 +268,7 @@ function News() {
         <div class="mb-6 flex flex-wrap">
           <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
             <div
-              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg "
               data-te-ripple-init
               data-te-ripple-color="light"
             >
@@ -285,7 +285,7 @@ function News() {
 
           <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
             <h5 class="mb-3 text-lg font-bold">Stock market boom</h5>
-            <div class="mb-3 flex items-center justify-center text-sm font-medium text-yellow-600 md:justify-start">
+            <div class="mb-3 flex items-center justify-center text-sm font-medium text-blue-500 md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -302,13 +302,13 @@ function News() {
               </svg>
               Business
             </div>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p class="mb-6 text-neutral-800">
               <small>
                 Published <u>10.01.2022</u> by
-                <a href="#!">Joe Svan</a>
+                <a href="#!"> Joe Svan</a>
               </small>
             </p>
-            <p class="text-neutral-500 dark:text-neutral-300">
+            <p class="text-neutral-800">
               Curabitur tristique, mi a mollis sagittis, metus felis mattis
               arcu, non vehicula nisl dui quis diam. Mauris ut risus eget massa
               volutpat feugiat. Donec.
@@ -319,7 +319,7 @@ function News() {
         <div class="mb-6 flex flex-wrap">
           <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
             <div
-              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg"
               data-te-ripple-init
               data-te-ripple-color="light"
             >
@@ -336,7 +336,7 @@ function News() {
 
           <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
             <h5 class="mb-3 text-lg font-bold">Welcome to California</h5>
-            <div class="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 md:justify-start">
+            <div class="mb-3 flex items-center justify-center text-sm font-medium text-danger md:justify-start text-blue-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -353,13 +353,13 @@ function News() {
               </svg>
               Travels
             </div>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p class="mb-6 text-neutral-800">
               <small>
                 Published <u>13.01.2022</u> by
-                <a href="#!">Anna Maria Doe</a>
+                <a href="#!"> Anna Maria Doe</a>
               </small>
             </p>
-            <p class="text-neutral-500 dark:text-neutral-300">
+            <p class="text-neutral-800 ">
               Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat
               vulputate. Ut vulputate est non quam dignissim elementum. Donec a
               ullamcorper diam.
@@ -370,7 +370,7 @@ function News() {
         <div class="mb-6 flex flex-wrap">
           <div class="mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12">
             <div
-              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg"
               data-te-ripple-init
               data-te-ripple-color="light"
             >
@@ -387,7 +387,7 @@ function News() {
 
           <div class="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
             <h5 class="mb-3 text-lg font-bold">Exhibition in Paris</h5>
-            <div class="mb-3 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400 md:justify-start">
+            <div class="mb-3 flex items-center justify-center text-sm font-medium text-primary md:justify-start text-blue-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -404,13 +404,13 @@ function News() {
               </svg>
               Art
             </div>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p class="mb-6 text-neutral-800 ">
               <small>
                 Published <u>12.01.2022</u> by
-                <a href="#!">Halley Frank</a>
+                <a href="#!"> Halley Frank</a>
               </small>
             </p>
-            <p class="text-neutral-500 dark:text-neutral-300">
+            <p class="text-neutral-800 ">
               Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet diam
               orci, nec ornare metus semper sed. Integer volutpat ornare erat
               sit amet rutrum.
