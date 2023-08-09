@@ -4,16 +4,14 @@ function Footer() {
   return (
     <div>
       <footer class="bg-white">
-        <div class="max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
+        <div class="max-w-[77rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
           <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
             <div class="col-span-full lg:col-span-1">
-              {/* <a
-                class="flex-none text-xl font-semibold text-black"
-                href="#"
-                aria-label="Brand"
-              >
-                Brand
-              </a> */}
+              <img
+                src="https://flowbite.com/docs/images/logo.svg"
+                class="h-20 mt-6 ml-6"
+                alt="Flowbite Logo"
+              ></img>
             </div>
 
             <div class="col-span-1">
