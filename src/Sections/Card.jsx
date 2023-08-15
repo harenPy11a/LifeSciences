@@ -2,7 +2,7 @@ import React from "react";
 
 function Card() {
   return (
-    <div class="max-w-[85rem] mt-24 py-10 sm:py-14 px-4 sm:px-6 lg:px-8 lg:py-24 2xl:py-56 mx-auto ">
+    <div class="max-w-[85rem] mt-24 px-4 sm:px-6 lg:px-8 mx-auto py-8">
       <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
         <h2 class="text-2xl font-bold md:text-4xl md:leading-tight text-black">
           What We Do
@@ -26,9 +26,7 @@ function Card() {
             />
           </div>
           <div class="my-6">
-            <h3 class="text-xl font-semibold text-black dark:group-hover:text-white">
-              Discovery{" "}
-            </h3>
+            <h3 class="text-xl font-semibold text-black ">Discovery </h3>
             <p class="mt-5 text-black">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -59,9 +57,7 @@ function Card() {
             />
           </div>
           <div class="my-6">
-            <h3 class="text-xl font-semibold text-black dark:group-hover:text-white">
-              Manufacturing
-            </h3>
+            <h3 class="text-xl font-semibold text-black">Manufacturing</h3>
             <p class="mt-5 text-black">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -92,9 +88,7 @@ function Card() {
             />
           </div>
           <div class="my-6">
-            <h3 class="text-xl font-semibold text-black dark:group-hover:text-white">
-              Development
-            </h3>
+            <h3 class="text-xl font-semibold text-black ">Development</h3>
             <p class="mt-5 text-black">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

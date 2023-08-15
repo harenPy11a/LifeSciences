@@ -99,7 +99,7 @@ function Testimonials() {
 
                       <div class="grow ml-3">
                         <p class="text-sm sm:text-base font-semibold text-black ">
-                          Josh Tyson
+                          Sam Johnson
                         </p>
                         <p class="text-xs text-black">
                           Product Manager | Capsule
@@ -132,10 +132,10 @@ function Testimonials() {
 
                       <div class="grow ml-3">
                         <p class="text-sm sm:text-base font-semibold text-black ">
-                          Josh Tyson
+                          Tony Lamner
                         </p>
                         <p class="text-xs text-black">
-                          Product Manager | Capsule
+                          Assistant Director | Embeed
                         </p>
                       </div>
                     </div>
@@ -168,7 +168,7 @@ function Testimonials() {
                           Josh Tyson
                         </p>
                         <p class="text-xs text-black">
-                          Product Manager | Capsule
+                          Vice President | Upsiders
                         </p>
                       </div>
                     </div>
@@ -185,7 +185,7 @@ function Testimonials() {
                 <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-800">
                   99.95%
                 </p>
-                <p class="mt-1 text-gray-400">in fulfilling orders</p>
+                <p class="mt-1 text-gray-600">in fulfilling orders</p>
               </div>
 
               <div>
@@ -195,7 +195,7 @@ function Testimonials() {
                 <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-800">
                   2,000+
                 </p>
-                <p class="mt-1 text-gray-400">partner with Preline</p>
+                <p class="mt-1 text-gray-600">partner with Preline</p>
               </div>
 
               <div>
@@ -205,7 +205,7 @@ function Testimonials() {
                 <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-800">
                   85%
                 </p>
-                <p class="mt-1 text-gray-400">this year alone</p>
+                <p class="mt-1 text-gray-600">this year alone</p>
               </div>
             </div>
 

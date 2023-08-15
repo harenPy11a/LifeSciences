@@ -191,7 +191,7 @@ function Contact() {
           <div class="relative w-full h-[40rem] ">
             <iframe
               class="absolute top-0 left-0 w-full h-full"
-              src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2963.319850684185!2d-88.06452702382882!3d42.03632117122472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880faf11a4896419%3A0x3614b144444a16fc!2sJames%20B.%20Conant%20High%20School!5e0!3m2!1sen!2sus!4v1692069162386!5m2!1sen!2sus, 10.606619&z=15&output=embed"
               frameborder="0"
               allowfullscreen=""
               aria-hidden="false"
