@@ -1,9 +1,10 @@
 import React from "react";
+import Footer from "./Footer";
 
 function News() {
   return (
-    <div class="container my-[200px] mx-auto md:px-6">
-      <section class="mb-32 md:text-left">
+    <div class="container  mt-[125px] mx-auto md:px-6">
+      <section class="mb-4 md:text-left">
         <h2 class="mb-4 text-left text-6xl font-bold">News Room</h2>
         <h2 class="mb-16 text-left ml-20 text-2xl">
           Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
@@ -418,6 +419,7 @@ function News() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
