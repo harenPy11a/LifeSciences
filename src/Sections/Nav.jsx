@@ -4,7 +4,7 @@ function Nav() {
   return (
     <nav class="bg-gradient-to-b from-blue-500 to-transparent fixed w-full z-20 top-0 left-0">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" class="flex items-center">
+        <a href="/" class="flex items-center">
           <img src={logo} class="h-12 mr-3" alt="Flowbite Logo"></img>
           <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
             LifeSciences
