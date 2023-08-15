@@ -1,5 +1,5 @@
 import React from "react";
-import logo1 from "./Assets/wslogo.png";
+import logo from "./Assets/LifeSciences.png";
 import stock1 from "./Assets/stock1.jpg";
 
 function Contact() {
@@ -199,11 +199,11 @@ function Contact() {
             ></iframe>
           </div>
         </div>
-        <div className="bg-[#002e26] flex-1 text-center ">
-          <div className="w-[200px] h-[200px] bg-[#747bd4] mx-auto mt-16 rounded-full justify-center flex">
+        <div className="bg-blue-800 flex-1 text-center ">
+          <div className="w-[200px] h-[200px] bg-white mx-auto mt-16 rounded-full justify-center flex">
             <img
               class="w-[160px] h-[160px] mx-auto my-auto"
-              src={logo1}
+              src={logo}
               alt=""
             ></img>
           </div>
