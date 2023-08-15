@@ -14,63 +14,61 @@ function FAQ() {
           <div class="grid sm:grid-cols-2 gap-6 md:gap-12">
             <div>
               <h3 class="text-lg font-semibold text-black">
-                Can I cancel at anytime?
+                semper eget duis at
               </h3>
               <p class="mt-2 text-black">
-                Yes, you can cancel anytime no questions are asked while you
-                cancel but we would highly appreciate if you will give us some
-                feedback.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 
             <div>
               <h3 class="text-lg font-semibold text-black">
-                My team has credits. How do we use them?
+                semper eget duis at
               </h3>
               <p class="mt-2 text-black">
-                Once your team signs up for a subscription plan. This is where
-                we sit down, grab a cup of coffee and dial in the details.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 
             <div>
               <h3 class="text-lg font-semibold text-black">
-                How does Preline's pricing work?
+                semper eget duis at
               </h3>
               <p class="mt-2 text-black">
-                Our subscriptions are tiered. Understanding the task at hand and
-                ironing out the wrinkles is key.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 
             <div>
               <h3 class="text-lg font-semibold text-black">
-                How secure is Preline?
+                semper eget duis at
               </h3>
               <p class="mt-2 text-black">
-                Protecting the data you trust to Preline is our first priority.
-                This part is really crucial in keeping the project in line to
-                completion.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 
             <div>
               <h3 class="text-lg font-semibold text-gblack">
-                Do you offer discounts?
+                semper eget duis at
               </h3>
               <p class="mt-2 text-black">
-                We've built in discounts at each tier for teams. The time has
-                come to bring those ideas and plans to life.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 
             <div>
               <h3 class="text-lg font-semibold text-black">
-                What is your refund policy?
+                semper eget duis at
               </h3>
               <p class="mt-2 text-black">
-                We offer refunds. We aim high at being focused on building
-                relationships with our clients and community.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
           </div>
