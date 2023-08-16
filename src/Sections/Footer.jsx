@@ -5,9 +5,13 @@ function Footer() {
     <div>
       <footer class="bg-white">
         <div class="w-full py-10 px-4 sm:px-6 lg:px-36 lg:pt-20 mx-auto">
-          <div class="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 gap-56">
+          <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 md:gap-36 gap-56">
             <div class="col-span-full lg:col-span-1">
-              <img src={logo} class="h-20 mt-6 ml-6" alt="Flowbite Logo"></img>
+              <img
+                src={logo}
+                class="h-20 w-auto mt-6 ml-6"
+                alt="Flowbite Logo"
+              ></img>
             </div>
 
             <div class="col-span-1">
