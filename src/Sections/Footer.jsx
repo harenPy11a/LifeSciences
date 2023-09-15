@@ -4,8 +4,8 @@ function Footer() {
   return (
     <div>
       <footer class="bg-white">
-        <div class="w-full py-10 px-4 sm:pl-16 md:pl-36 lg:pl-42 lg:pt-20">
-          <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 md:gap-36 gap-56">
+        <div class="w-full py-10 px-4 sm:pl-16 md:pl-36 lg:pl-56 lg:pt-20">
+          <div class="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 md:gap-36 gap-56">
             <div class="col-span-full lg:col-span-1">
               <img
                 src={logo}
@@ -119,33 +119,6 @@ function Footer() {
               >
                 <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
               </svg>
-            </div>
-
-            <div class="col-span-2">
-              <h4 class="font-semibold text-black">Stay up to date</h4>
-
-              <form>
-                <div class="mt-4 flex flex-col items-center gap- sm:flex-row sm:gap-3 bg-white rounded-md p-2">
-                  {/* <div class="w-full">
-                    <label for="hero-input" class="sr-only">
-                      Search
-                    </label>
-                    <input
-                      type="text"
-                      id="hero-input"
-                      name="hero-input"
-                      class="py-3 px-4 block w-full border-transparent shadow-sm rounded-md focus:z-10 focus:border-blue-500 focus:ring-blue-500"
-                      placeholder="Enter your email"
-                    />
-                  </div> */}
-                  <a
-                    class="w-full sm:w-auto whitespace-nowrap inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4"
-                    href="#"
-                  >
-                    Subscribe
-                  </a>
-                </div>
-              </form>
             </div>
           </div>
 
