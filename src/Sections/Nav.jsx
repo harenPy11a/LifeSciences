@@ -2,13 +2,14 @@ import React from "react";
 import logo from "./Assets/LifeSciences.png";
 function Nav() {
   return (
-    <nav class="bg-gradient-to-b from-blue-500 to-transparent fixed w-full z-20 top-0 left-0">
+    <nav class=" bg-white fixed w-full z-20 top-0 left-0">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" class="flex items-center">
           <img src={logo} class="h-12 mr-3" alt="Flowbite Logo"></img>
-          <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-black">
             LifeSciences
           </span>
+          <div className="border-r border-black text-white">x</div>
         </a>
         <div class="flex md:order-2">
           <button
@@ -50,7 +51,7 @@ function Nav() {
             <li>
               <a
                 href="/"
-                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
+                class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
                 aria-current="page"
               >
                 Home
@@ -59,7 +60,7 @@ function Nav() {
             <li>
               <a
                 href="services"
-                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
+                class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
               >
                 Services
               </a>
@@ -67,7 +68,7 @@ function Nav() {
             <li>
               <a
                 href="news"
-                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
+                class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
               >
                 News
               </a>
@@ -75,7 +76,7 @@ function Nav() {
             <li>
               <a
                 href="testimonials"
-                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
+                class="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 "
               >
                 Testimonials
               </a>
