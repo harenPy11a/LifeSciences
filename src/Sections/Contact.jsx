@@ -1,8 +1,32 @@
-import React from "react";
+import React, { useRef } from "react";
 import logo from "./Assets/LifeSciences.png";
 import stock1 from "./Assets/stock1.jpg";
 
+import emailjs from "@emailjs/browser";
+
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        form.current,
+        "YOUR_PUBLIC_KEY"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div class="bg-gray-200">
       <img
