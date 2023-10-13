@@ -46,17 +46,19 @@ function Contact() {
       {/* here */}
       <div className="w-full">
         <form
-          className="flex flex-col items-center self-auto w-full h-1/2"
+          className="flex flex-col p-24 items-center bg-yellow-400 self-auto w-full h-4/5"
           ref={form}
           onSubmit={sendEmail}
         >
-          <label className="font-bold text-xl">Name</label>
+          <label className="font-bold py-3 text-xl">Name</label>
           <input type="text" name="user_name" />
-          <label className="font-bold text-xl">Email</label>
+          <label className="font-bold py-3 text-xl">Email</label>
           <input type="email" name="user_email" />
-          <label className="font-bold text-xl">Message</label>
-          <textarea name="message" />
-          <input className="w-2/5 bg-[#00C9FF]" type="submit" value="Send" />
+          <label className="font-bold py-3 text-xl">Message</label>
+          <textarea className="py-3 message" />
+          <div className="flex py-3 w-screen">
+            <input className="w-2/5 bg-[#00C9FF]" type="submit" value="Send" />
+          </div>
         </form>
       </div>
 
