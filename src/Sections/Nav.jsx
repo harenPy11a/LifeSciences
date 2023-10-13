@@ -9,7 +9,7 @@ function Nav() {
           <span class="self-center text-2xl font-semibold whitespace-nowrap text-black">
             LifeSciences
           </span>
-          <div className="border-r border-black text-white">x</div>
+          <div className="border-r-2 border-black text-white">xx</div>
         </a>
         <div class="flex md:order-2">
           <button
