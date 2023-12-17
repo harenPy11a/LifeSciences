@@ -1,8 +1,35 @@
 import React from "react";
 import logo from "./Assets/LifeSciences.png";
 import stock1 from "./Assets/stock1.jpg";
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+
+ 
+  function sendEmail(event) {
+    event.preventDefault(); 
+    
+    const templateParams = {
+      first_name: event.target.elements['first-name'].value,
+      last_name: event.target.elements['last-name'].value,
+      user_company: event.target.elements['company'].value,
+      user_email: event.target.elements['email'].value,
+      user_number: event.target.elements['phone-number'].value,
+      message: event.target.elements['message'].value
+    };
+
+    
+
+    emailjs.send('service_67q66ea', 'template_woegzln', templateParams, '0inXRPYA-iJOjIgbH')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+    event.target.reset();
+  }
+
   return (
     <div class="bg-gray-200">
       <img
@@ -20,7 +47,9 @@ function Contact() {
         </p>
       </div>
 
-      <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+      
+
+      <form onSubmit={sendEmail} method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label
