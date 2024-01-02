@@ -1,15 +1,18 @@
 import React from "react";
 import Footer from "./Footer";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const InfoCard = ({ title, description, imageUrl }) => {
   return (
-    <div className="w-72 rounded-lg overflow-hidden shadow-lg mx-6 h-96 flex flex-col">
-      <div className="p-4 flex-1 flex flex-col justify-between">
+    <div className="w-96 h-1200  rounded-lg overflow-hidden shadow-lg mx-6  flex flex-col">
+      <div className="p-4 flex-1 flex flex-col ">
         <div>
           <div className="font-bold text-xl mb-2">{title}</div>
           <p className="text-gray-700 text-base mb-4">{description}</p>
         </div>
-        <div className="h-1/2">
+        <div className="">
           <img
             className="w-full h-full object-cover rounded"
             src={imageUrl}
@@ -22,6 +25,18 @@ const InfoCard = ({ title, description, imageUrl }) => {
 };
 
 function Services() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    swipeToSlide: true,
+    adaptiveHeight: true,
+    centerMode: true,
+    className: "center",
+    centerPadding: "00px"
+  };
   return (
     <div className="mt-32 items-center">
       <div className="text-center">
@@ -114,7 +129,9 @@ function Services() {
         </div>
       </div>
 
-      <div className="flex overflow-x-auto p-4 justify-center">
+      <div className="h-120 pt-120 px-120 ">
+      <Slider {...settings}>
+
         <InfoCard
           title="Card Title 1"
           description="This is the first card description."
@@ -127,7 +144,25 @@ function Services() {
         />
         <InfoCard
           title="Card Title 3"
-          description="This is the third card description."
+          description="This is the third card description. isjfgepwijepwohgepwhgpweihgwepihgewipghwepighwepihgweiphgwipeghweipghewipghweipghewipgh'ihsfusd'hgueshgioheishihgweiphgwipeghweipghewiihgweiphgwipeghweipghewiihgweiphgwipeghweipghewiihgweiphgwipeghweipghewiihgweiphgwipeghweipghewiihgweiphgwipeghweipghewiihgweiphgwipeghweipghewihi my name
+          s
+          s
+          s
+          s
+          ss
+          s
+          ihgweiphgwipeghweipghewi
+          ihgweiphgwipeghweipghewi
+          ihgweiphgwipeghweipghewi
+          ihgweiphgwipeghweipghewi
+          ihgweiphgwipeghweipghewi
+          ihgweiphgwipeghweipghewi
+          ihgweiphgwipeghweipghewi
+          ihgweiphgwipeghweipghewi
+          ihgweiphgwipeghweipghewi
+          ihgweiphgwipeghweipghewi
+          ihgweiphgwipeghweipghewi
+          ihgweiphgwipeghweipghewi"
           imageUrl="src/Sections/Assets/sci2.jpg"
         />
         <InfoCard
@@ -135,8 +170,11 @@ function Services() {
           description="This is the fourth card description."
           imageUrl="src/Sections/Assets/sci2.jpg"
         />
+      </Slider>
+
       </div>
 
+      
       <div>
         <Footer />
       </div>
