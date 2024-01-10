@@ -6,7 +6,7 @@ import Slider from "react-slick";
 
 const InfoCard = ({ title, description, imageUrl }) => {
   return (
-    <div className="w-96 h-1200  rounded-lg overflow-hidden shadow-lg mx-6  flex flex-col">
+    <div className="w-96 h-90  rounded-lg overflow-hidden shadow-lg mx-6  flex flex-col">
       <div className="p-4 flex-1 flex flex-col ">
         <div>
           <div className="font-bold text-xl mb-2">{title}</div>
@@ -32,7 +32,7 @@ function Services() {
     slidesToShow: 3,
     slidesToScroll: 1,
     swipeToSlide: true,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     centerMode: true,
     className: "center",
     centerPadding: "00px"
@@ -41,12 +41,10 @@ function Services() {
     <div className="mt-32 items-center">
       <div className="text-center">
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">
-          We invest in the world’s potential
+          Explore our Services
         </h1>
         <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-700">
-          Here at Flowbite we focus on markets where technology, innovation, and
-          capital can unlock long-term value and drive economic growth.
-        </p>
+        At LifeSciences, our unwavering commitment is dedicated to advancing scientific research with an unwavering dedication to the greater good. Our mission is to propel the frontiers of knowledge, contributing to the collective progress of humanity through the pursuit of excellence in scientific exploration and discovery.        </p>
       </div>
 
       <div className="flex flex-col items-center justify-center mt-32 mb-32">
