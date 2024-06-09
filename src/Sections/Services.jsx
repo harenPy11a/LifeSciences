@@ -7,7 +7,7 @@ import Slider from "react-slick";
 const InfoCard = ({ title, description, imageUrl }) => {
   return (
     <div className="w-96 h-85 rounded-lg overflow-hidden shadow-lg mx-6 flex flex-col bg-gray-100">
-      <div className="p-4 flex-1 flex flex-col ">
+      <div className="h-full p-4 flex-1 flex flex-col ">
         <div>
           <div className="font-bold text-xl mb-2">{title}</div>
           <p className="text-gray-700 text-base mb-4 flex-grow">
@@ -147,7 +147,7 @@ function Services() {
         </div>
       </div>
 
-      <div className="h-120 pt-120 px-120 bg-red-300">
+      <div className="h-120 pt-120 px-120">
         <Slider {...settings}>
           <InfoCard
             title="DMPK: in vitro ADME"
